@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Sorting Hat</title>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="/">Home</a>
+    </nav>
+    
+    <div class="text-center">
+        <img src="https://i.imgur.com/QVUJ9Pq.jpg" class="img-fluid" alt="sorting_hat">
+    </div>  
+    
+    <div class="text-center">
+        <h1>The Sorting Hat</h1>
+            <form class="mx-auto" action="/house" method="POST">
+                <p>What is your birthday? <input type="date" name="bd"></p>
+                <p>Which of the following would you most hate people to call you?</p>
+                <input type="radio" name="hate" value="Ordinary" checked> Ordinary<br>
+                <input type="radio" name="hate" value="Ignorant" checked> Ignorant<br>
+                <input type="radio" name="hate" value="Cowardly" checked> Cowardly<br>
+                <input type="radio" name="hate" value="Selfish" checked> Selfish<br>
+                <p>Given the choice, would you rather invent a potion that would guarantee you: </p>
+                <input type="radio" name="potion" value="Glory" checked> Glory<br>
+                <input type="radio" name="potion" value="Wisdom" checked> Wisdom<br>
+                <input type="radio" name="potion" value="Love" checked> Love<br>
+                <input type="radio" name="potion" value="Power" checked> Power<br>
+                <p>Which would you rather be?</p>
+                <input type="radio" name="desire" value="Trusted" checked> Trusted<br>
+                <input type="radio" name="desire" value="Liked" checked> Liked<br>
+                <input type="radio" name="desire" value="Imitated" checked> Imitated<br>
+                <input type="radio" name="desire" value="Praised" checked> Praised<br>
+                <input type="radio" name="desire" value="Envied" checked> Envied<br>
+                <input type="radio" name="desire" value="Feard" checked> Feard<br>
+                <p>Which road tempts you most?</p>
+                <input type="radio" name="road" value="happy" checked>The wide, sunny, grassy lane<br>
+                <input type="radio" name="road" value="ominous" checked>The narrow, dark, lantern-lit alley<br>
+                <input type="radio" name="road" value="confusing" checked>The twisting, leaf-strewn path through woods<br>
+                <input type="radio" name="road" value="london" checked>The cobbled street lined with ancient buildings<br>
+                <p>Which nightmare would frighten you most?</p>
+                <input type="radio" name="fear" value="height" checked>Standing on top of something very high and realizing suddenly that there are no hand- or footholds, nor any barrier to stop you falling<br>
+                <input type="radio" name="fear" value="spy" checked>An eye at the keyhole of the dark, windowless room in which you are locked<br>
+                <input type="radio" name="fear" value="alone" checked>Waking up to find that neither your friends nor your family have any idea who you are.<br>
+                <input type="radio" name="fear" value="voice" checked>Being forced to speak in such a silly voice that hardly anyone can understand you, and everyone laughs at you<br>
+                <br>
+                <br>
+                <button type="submit" action="/house" class="btn btn-dark btn-lg">Submit</button>
+             </form>
+        </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
