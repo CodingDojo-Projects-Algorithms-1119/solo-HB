@@ -1,1 +1,1 @@
-# solo-HB
+# Solo Project - Hogwarts themed school website
